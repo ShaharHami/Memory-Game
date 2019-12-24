@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4046672093852758483
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4046672093852758485}
+  - component: {fileID: 4046672093852758484}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4046672093852758485
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4046672093852758483}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4046672093852758484
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4046672093852758483}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f10b72d851e44da7959057d48cb4b57, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cardFace:
+  - {fileID: 21300000, guid: 3954ca5dddc2c43c397fa10074f8ba81, type: 3}
+  - {fileID: 21300000, guid: 3d525433c50e74054b3f569109006a83, type: 3}
+  - {fileID: 21300000, guid: f5850d02e754e4d19ba13372eab78fd5, type: 3}
+  - {fileID: 21300000, guid: 077ad7de45f904a9d8d6d695a4e36062, type: 3}
+  - {fileID: 21300000, guid: 7bf101b261f3c44d9bd666ba76f61dda, type: 3}
+  - {fileID: 21300000, guid: c2adddb550818473cac4e52fe4827f07, type: 3}
+  - {fileID: 21300000, guid: 2d88f660dc4904e3f9b1a976fc1f0a09, type: 3}
+  - {fileID: 21300000, guid: 19d81a5cf03fa4b47bccdfedf79597cf, type: 3}
+  _popupBehaviour: {fileID: 0}
+  _gameTime: 30
+  _startButtonText: {fileID: 0}
+  _startText: Play
+  _pauseText: Pause
+  _matchSoundDelay: 0.3

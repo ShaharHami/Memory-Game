@@ -1,0 +1,109 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3129918615625253192
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3129918615625253195}
+  - component: {fileID: 8179553513298488208}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3129918615625253195
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3129918615625253192}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8179553513298488208
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3129918615625253192}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b851d5fc0ae05415a8a80501df6d84f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: Card Hover
+    clip: {fileID: 8300000, guid: 6bdd4c42adab34cdf976731753e93cc6, type: 3}
+    volume: 1
+    pitch: 1
+    randomVolume: 0
+    randomPitch: 0.2
+    loop: 0
+  - name: Card Flip
+    clip: {fileID: 8300000, guid: 6bdd4c42adab34cdf976731753e93cc6, type: 3}
+    volume: 1
+    pitch: 1
+    randomVolume: 0
+    randomPitch: 0.3
+    loop: 0
+  - name: Card Match
+    clip: {fileID: 8300000, guid: b6c3fa3ca8f764271a40d4927915c0af, type: 3}
+    volume: 0.4
+    pitch: 1
+    randomVolume: 0
+    randomPitch: 0
+    loop: 0
+  - name: Button Hover
+    clip: {fileID: 8300000, guid: a129bf6a1c35f4fcab1dbd4d21ae4bb2, type: 3}
+    volume: 0.4
+    pitch: 1
+    randomVolume: 0
+    randomPitch: 0
+    loop: 0
+  - name: Button Click
+    clip: {fileID: 8300000, guid: 38a72a61bafec4a82b3c11573747e418, type: 3}
+    volume: 0.4
+    pitch: 1
+    randomVolume: 0
+    randomPitch: 0
+    loop: 0
+  - name: Swoosh
+    clip: {fileID: 8300000, guid: b508ba94e83244607b1440931a30e4c6, type: 3}
+    volume: 0.3
+    pitch: 1
+    randomVolume: 0
+    randomPitch: 0.3
+    loop: 0
+  - name: GameOverWin
+    clip: {fileID: 8300000, guid: f1f128e0f2aa345febefb744afad6c84, type: 3}
+    volume: 0.3
+    pitch: 1
+    randomVolume: 0
+    randomPitch: 0
+    loop: 0
+  - name: GameOverLose
+    clip: {fileID: 8300000, guid: 2ecae71a7604844fcb379fd669175601, type: 3}
+    volume: 0.3
+    pitch: 1
+    randomVolume: 0
+    randomPitch: 0
+    loop: 0
+  - name: BGM
+    clip: {fileID: 8300000, guid: 785d7a47b37194d27b670bf0d700c609, type: 3}
+    volume: 0.1
+    pitch: 1
+    randomVolume: 0
+    randomPitch: 0
+    loop: 1
